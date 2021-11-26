@@ -1,0 +1,76 @@
+:root {   
+    --body-font: "Poppins", sans-serif; 
+    --normal-font-size: 0.813rem;
+}
+body{
+
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+#home {
+    height: 100vh;
+    background-image: url("headphones-geb9768387_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: 40%;
+}
+/*header*/
+h1{
+    font-size: 50px;
+}
+/*nav*/
+ul li{
+    list-style-type: none;
+    float: right;
+}
+
+ul li a{
+    font-size: larger;
+    padding-left: 25px;
+    text-decoration: none;
+    color:black;
+}
+
+section{
+    display:inline;
+}
+.title{
+    float: left;
+    width: 200px;
+    height: auto;
+    font-size: 80px;
+    font-weight: 200;
+    padding: 30px;
+    color: rgb(255, 248, 254);
+}
+
+aside {
+    width: 200px;
+    height:100px;
+    margin-top:150px;
+    margin-bottom: 250px;
+    text-align: right;
+    font-size:xx-large;
+    line-height: 100px;
+    float:right;
+    clear:right;
+  }
+
+.bx-play-circle{
+    background-color: pink;
+    color:white;
+    border-radius: 50%;
+    margin:10px;
+}
+footer{
+    clear:right;}
+
+#foot a i{ 
+    color:rgb(56, 134, 148);
+    font-size:30px;
+}
+
+footer a i{
+    margin-right:10px;
+    align-items: flex-end;
+    float:right;
+}
